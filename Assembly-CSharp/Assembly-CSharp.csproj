@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68F2320A-5CD7-4539-A6D1-FA83FB13725A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="GameJoltRuntime">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\GameJoltRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\HellholeIsland_Windows_64bit\Hellhole Island_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoryBoosts.cs" />
+    <Compile Include="AchievementManager.cs" />
+    <Compile Include="ActiveStatusEffect.cs" />
+    <Compile Include="AmbienceSounds.cs" />
+    <Compile Include="AngryFirefly.cs" />
+    <Compile Include="AudioManager.cs" />
+    <Compile Include="Autosave.cs" />
+    <Compile Include="Bed.cs" />
+    <Compile Include="BedHalf.cs" />
+    <Compile Include="BestiaryDrop.cs" />
+    <Compile Include="BestiaryEntry.cs" />
+    <Compile Include="BestiaryGui.cs" />
+    <Compile Include="BestiaryRegistry.cs" />
+    <Compile Include="BestiarySpawnCondition.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="BlockAnimator.cs" />
+    <Compile Include="BlockRegistry.cs" />
+    <Compile Include="BlockType.cs" />
+    <Compile Include="Boss.cs" />
+    <Compile Include="BossBar.cs" />
+    <Compile Include="BossStatue.cs" />
+    <Compile Include="BuilderGui.cs" />
+    <Compile Include="BulletinCollection.cs" />
+    <Compile Include="ButtonEffect.cs" />
+    <Compile Include="CampfireCollider.cs" />
+    <Compile Include="CampfireRain.cs" />
+    <Compile Include="Cauldron.cs" />
+    <Compile Include="Chair.cs" />
+    <Compile Include="Chest.cs" />
+    <Compile Include="ClownLandMine.cs" />
+    <Compile Include="CoinData.cs" />
+    <Compile Include="CoinMachine.cs" />
+    <Compile Include="CraftingStation.cs" />
+    <Compile Include="CrazyClown.cs" />
+    <Compile Include="CreativeMenuTab.cs" />
+    <Compile Include="CreativeSlot.cs" />
+    <Compile Include="CustomSkinUtility.cs" />
+    <Compile Include="DamageSource.cs" />
+    <Compile Include="DebugStuff\BulletinDebug.cs" />
+    <Compile Include="DoorMechanic.cs" />
+    <Compile Include="DraggedSlot.cs" />
+    <Compile Include="Elementer.cs" />
+    <Compile Include="Emote.cs" />
+    <Compile Include="EmoteRegistry.cs" />
+    <Compile Include="EnemyAnimation.cs" />
+    <Compile Include="EnemyAnimator.cs" />
+    <Compile Include="EnemyBar.cs" />
+    <Compile Include="EnemyBase.cs" />
+    <Compile Include="EnemyCorpse.cs" />
+    <Compile Include="EnemyEyes.cs" />
+    <Compile Include="EnemyProjectile.cs" />
+    <Compile Include="EnemySpawner.cs" />
+    <Compile Include="EnemyToSpawn.cs" />
+    <Compile Include="Explosives.cs" />
+    <Compile Include="Farmland.cs" />
+    <Compile Include="FishingLine.cs" />
+    <Compile Include="FishingLootTable.cs" />
+    <Compile Include="Flash.cs" />
+    <Compile Include="Floor.cs" />
+    <Compile Include="FloorRegistry.cs" />
+    <Compile Include="FriendlyEnemy.cs" />
+    <Compile Include="GameBackground.cs" />
+    <Compile Include="GameManager.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="GardenGnome.cs" />
+    <Compile Include="GroundSprite.cs" />
+    <Compile Include="GuiManager.cs" />
+    <Compile Include="HealthBar.cs" />
+    <Compile Include="HeldItemUse.cs" />
+    <Compile Include="HeldItemVisual.cs" />
+    <Compile Include="Hellbot.cs" />
+    <Compile Include="HoverButton.cs" />
+    <Compile Include="IngredientDisplay.cs" />
+    <Compile Include="InteractableBlock.cs" />
+    <Compile Include="Invasion.cs" />
+    <Compile Include="InvasionStatue.cs" />
+    <Compile Include="InventorySlot.cs" />
+    <Compile Include="InventoryUiEvents.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemRegistry.cs" />
+    <Compile Include="ItemTier.cs" />
+    <Compile Include="ItemTooltip.cs" />
+    <Compile Include="ItemUseType.cs" />
+    <Compile Include="Jeff.cs" />
+    <Compile Include="Joe.cs" />
+    <Compile Include="Lake.cs" />
+    <Compile Include="LeafBlock.cs" />
+    <Compile Include="LevelLight.cs" />
+    <Compile Include="LogoEffect.cs" />
+    <Compile Include="LootDrop.cs" />
+    <Compile Include="MainMenuManager.cs" />
+    <Compile Include="MainMenuUiEvents.cs" />
+    <Compile Include="MapsContainer.cs" />
+    <Compile Include="MapSlot.cs" />
+    <Compile Include="NewsBulletin.cs" />
+    <Compile Include="NostalgiaSeedFont.cs" />
+    <Compile Include="NpcHand.cs" />
+    <Compile Include="NpcShop.cs" />
+    <Compile Include="NpcShopContainer.cs" />
+    <Compile Include="NpcShopSlot.cs" />
+    <Compile Include="OptimizeRenderer.cs" />
+    <Compile Include="OreGolem.cs" />
+    <Compile Include="ParticleKeyPair.cs" />
+    <Compile Include="ParticleManager.cs" />
+    <Compile Include="PickupItem.cs" />
+    <Compile Include="PlacedBlock.cs" />
+    <Compile Include="PlacedFloor.cs" />
+    <Compile Include="PlacedTree.cs" />
+    <Compile Include="PlayerBodyPartSprite.cs" />
+    <Compile Include="PlayerEyes.cs" />
+    <Compile Include="PlayerFireRing.cs" />
+    <Compile Include="PlayerHeadAccesory.cs" />
+    <Compile Include="PlayerMovement.cs" />
+    <Compile Include="PostProcessing.cs" />
+    <Compile Include="Potion.cs" />
+    <Compile Include="PotionRegistry.cs" />
+    <Compile Include="Projectile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rain.cs" />
+    <Compile Include="RainCloud.cs" />
+    <Compile Include="Recipe.cs" />
+    <Compile Include="RecipeComponent.cs" />
+    <Compile Include="RecipeRegistry.cs" />
+    <Compile Include="RecipeSlot.cs" />
+    <Compile Include="ResultDisplay.cs" />
+    <Compile Include="RockGolem.cs" />
+    <Compile Include="SaveBlock.cs" />
+    <Compile Include="SaveChest.cs" />
+    <Compile Include="SaveFloor.cs" />
+    <Compile Include="SaveTree.cs" />
+    <Compile Include="SelectionSquare.cs" />
+    <Compile Include="SettingsUiEvents.cs" />
+    <Compile Include="Sign.cs" />
+    <Compile Include="SimpleScaler.cs" />
+    <Compile Include="SlotGui.cs" />
+    <Compile Include="Sound.cs" />
+    <Compile Include="SpecialBlockFeature.cs" />
+    <Compile Include="SpecialText.cs" />
+    <Compile Include="SplashText.cs" />
+    <Compile Include="SquareShooterEnemy.cs" />
+    <Compile Include="StaticBackgroundRepeat.cs" />
+    <Compile Include="StationBlock.cs" />
+    <Compile Include="StatusController.cs" />
+    <Compile Include="StatusEffect.cs" />
+    <Compile Include="StatusEffectDisplay.cs" />
+    <Compile Include="StatusEffectRegistry.cs" />
+    <Compile Include="Structure.cs" />
+    <Compile Include="StructureBlock.cs" />
+    <Compile Include="StructureBlockType.cs" />
+    <Compile Include="StructureBuilder.cs" />
+    <Compile Include="StructureBuilderBlock.cs" />
+    <Compile Include="StructureBuilderGui.cs" />
+    <Compile Include="StructureRegistry.cs" />
+    <Compile Include="Table.cs" />
+    <Compile Include="Teleporter.cs" />
+    <Compile Include="TestOptimizationSystem.cs" />
+    <Compile Include="TextScript.cs" />
+    <Compile Include="ToasterTroll.cs" />
+    <Compile Include="TrashTakeSettings.cs" />
+    <Compile Include="TrashTake\BuildInfo\TrashTakeBuildInfo.cs" />
+    <Compile Include="Tree.cs" />
+    <Compile Include="TreeGuardian.cs" />
+    <Compile Include="TreeRegistry.cs" />
+    <Compile Include="UkrainiumGuardAnimation.cs" />
+    <Compile Include="UtilityMath.cs" />
+    <Compile Include="Vampire.cs" />
+    <Compile Include="WalkingEnemy.cs" />
+    <Compile Include="WaterBlock.cs" />
+    <Compile Include="WaterBottomLayer.cs" />
+    <Compile Include="Wire.cs" />
+    <Compile Include="WireSprite.cs" />
+    <Compile Include="World.cs" />
+    <Compile Include="WorldContainer.cs" />
+    <Compile Include="WorldGeneration.cs" />
+    <Compile Include="WorldgenUiEvents.cs" />
+    <Compile Include="WorldListJson.cs" />
+    <Compile Include="WorldManager.cs" />
+    <Compile Include="WorldNameGenerator.cs" />
+    <Compile Include="WorldPolicy.cs" />
+    <Compile Include="WorldSlot.cs" />
+    <Compile Include="Zombie.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
